@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Multiply</title>
+  <script src="index.js"></script>
+  <style>
+  body {
+    width: 1000px;
+    margin: auto;
+  }
+
+  .main, .count {
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+
+  li {
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .main h3 {
+    width: 30px;
+    height: 35px;
+  }
+
+  #multiplicant, #multiplicator {
+    border-bottom: 1px solid black;
+  }
+
+  input[type=text] {
+    font-weight: 400;
+    height: 35px;
+    width: 100px;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .success {
+    border: 2px solid #2ECC40;
+    background-color: #2ecc40;
+    color: white;
+  }
+
+  </style>
+</head>
+<body>
+<div style="width:150px; float:left; margin-top: -75px;">
+  <p>เลือกแม่คูณ</p>
+  <ul>
+  </ul>
+</div>
+<div style="margin-top: 250px;">
+  <div class="main">
+    <h3 id="multiplicant">a</h3>
+    <h3>x</h3>
+    <h3 id="multiplicator">b</h3>
+    <h3>=</h3>
+    <input type="text" id="answer" class="" autocomplete="off">
+  </div>
+  <div class="count">
+      <h3>จำนวนครั้งที่ตอบถูก: <span id="count">0</span></h3>
+  </div>
+</div>
+</body>
+</html>
